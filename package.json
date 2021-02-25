@@ -1,0 +1,24 @@
+{
+  "name": "express_upload",
+  "version": "1.0.0",
+  "description": "express_upload",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarkadig/express_upload.git"
+  },
+  "author": "gergo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarkadig/express_upload/issues"
+  },
+  "homepage": "https://github.com/sarkadig/express_upload#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  }
+}
