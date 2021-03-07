@@ -1,0 +1,63 @@
+h1 {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 40px;
+  color: goldenrod;
+  font-family: 'DotGothic16', sans-serif;
+}
+
+#uploadForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 20px;
+  color: goldenrod;
+}
+input {
+  border: 2px solid goldenrod;
+  border-radius: 20px;
+  width: 200px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'DotGothic16', sans-serif;
+  text-align: center;
+  font-size: 14px;
+}
+#logo {
+  position: fixed;
+  top: -18%;
+  left: 150%;
+
+  width: 200px;
+  height: 200px;
+
+  background-image: url(./hat.png);
+  background-position: center;
+  background-size: cover;
+}
+button {
+  width: 100px;
+  height: 50px;
+
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+
+  border-radius: 7px;
+  background-color: goldenrod;
+
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 20px;
+  color: green;
+ 
+}
